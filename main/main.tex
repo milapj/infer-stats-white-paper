@@ -93,10 +93,7 @@ I will be utilizing \href{https://jasp-stats.org/}{JASP}, an open-source statist
 
 One widely debated topic is the practice of avoiding deployments on Fridays. A quick Google search of the question "Should you deploy on a Friday?" brings up a mix of articles—some strongly advising against it, while others support it but fail to provide clear explanations. 
 
-Friday deployments are commonly avoided in the industry based on the belief that the risk of them causing outages or incidents is inherently high. (TODO talk about survey results, if any). 
-
-% One of the main reasons cited by engineers and developers who participated in the survey was the possibility of a Friday deployment causing incidents over the weekend, requiring engineers to work during their time off. 
-The fear is based on the assumption that Friday deployments are inherently riskier, leading to potential disruptions at inconvenient times. By subjecting the "no Friday deployments" belief to inferential statistical tests, we can move beyond this assumption and provide empirical evidence to either support or refute it. It wouldn't be entirely fair or accurate to state that the fear of Friday deployment is solely based on the assumption of inherent risk they carry. In reality, the fear could stem from many factors, such as cultural norms, past experiences, operational challenges, etc. However, based on my experience and research, the assumption that Friday deployments inherently carry more risk is a widely accepted belief. Ultimately, statistical analysis helps clarify whether Friday deployments are genuinely riskier based on data and whether it makes sense to establish release policies around this assumption.
+Friday deployments are commonly avoided in the industry based on the belief that the risk of them causing outages or incidents is inherently high. The fear is based on the assumption that Friday deployments are inherently riskier, leading to potential disruptions at inconvenient times. By subjecting the "no Friday deployments" belief to inferential statistical tests, we can move beyond this assumption and provide empirical evidence to either support or refute it. It wouldn't be entirely fair or accurate to state that the fear of Friday deployment is solely based on the assumption of inherent risk they carry. In reality, the fear could stem from many factors, such as cultural norms, past experiences, operational challenges, etc. However, based on my experience and research, the assumption that Friday deployments inherently carry more risk is a widely accepted belief. Ultimately, statistical analysis helps clarify whether Friday deployments are genuinely riskier based on data and whether it makes sense to establish release policies around this assumption.
 
 Let's subject this belief to statistical hypothesis testing using the incident data from the dataset.
 
@@ -230,7 +227,7 @@ The first step is to load the data frame with the incident count per day of the 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.5\linewidth, height=13cm]{resources/Screenshot 2024-09-25 011255.png}
+    \includegraphics[width=0.5\linewidth, height=13cm]{Screenshot 2024-09-25 011255.png}
     \caption{Adding data to JASP}
     \label{fig:enter-label}
 \end{figure}
@@ -255,8 +252,8 @@ To conduct Null Hypothesis Significance Testing (NHST) in this analysis, we need
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=0.7\linewidth, height=8cm]{resources/Screenshot 2024-09-27 230725.png}
-        \caption{Enter Caption}
+        \includegraphics[width=0.7\linewidth, height=7.5cm]{Screenshot 2024-09-27 230725.png}
+        \caption{Preliminary Test Results}
         \label{fig:enter-label}
     \end{figure}
 
@@ -298,8 +295,8 @@ We can let JASP handle this calculation for us.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{resources/Screenshot 2024-09-28 011601.png}
-    \caption{Enter Caption}
+    \includegraphics[width=0.7\linewidth]{Screenshot 2024-09-28 011601.png}
+    \caption{Mann-Whitney U Test Results}
     \label{fig:enter-label}
 \end{figure}
 
@@ -317,8 +314,8 @@ Using the dataset, let's look at the heatmap below, which represents the inciden
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\linewidth]{resources/Screenshot 2024-10-01 233549.png}
-    \caption{Incident Density}
+    \includegraphics[width=0.7\linewidth]{Screenshot 2024-10-01 233549.png}
+    \caption{Incident Density Heatmap}
     \label{fig:enter-label}
 \end{figure}
 
@@ -399,8 +396,8 @@ We can let JASP calculate the Chi-Square statistic and give us the p-value.
 
 \begin{figure} [H]
     \centering
-    \includegraphics[width=0.5\linewidth]{resources/Screenshot 2024-10-20 170522.png}
-    \caption{Chi-Square Test}
+    \includegraphics[width=0.5\linewidth]{Screenshot 2024-10-20 170522.png}
+    \caption{Chi-Square Test Results}
     \label{fig:enter-label}
 \end{figure}
 
