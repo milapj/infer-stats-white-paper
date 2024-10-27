@@ -1,8 +1,8 @@
-# Overview
+## Overview
 
 This repository handles the automated publishing of my white paper `Statistical Insights: Applying Inferential Analysis to Software Incident Data` written in LaTex using [PubTex](https://github.com/jonhue/pubtex-action/tree/main/) github action.
 
-# Disclaimer
+## Disclaimer
 
 Shield: [![CC BY-ND 4.0][cc-by-nd-shield]][cc-by-nd]
 
@@ -15,4 +15,6 @@ This work is licensed under a
 [cc-by-nd-image]: https://licensebuttons.net/l/by-nd/4.0/88x31.png
 [cc-by-nd-shield]: https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg
 
-The paper can be found [here](https://milapj.github.io/infer-stats-white-paper/main.pdf)
+## 
+
+The paper can be found <a href="https://milapj.github.io/infer-stats-white-paper/main.pdf" target="_blank">HERE</a>
