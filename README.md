@@ -1,11 +1,8 @@
 ## Overview
 
-This repository handles the automated publishing of my white paper 
+This white paper explores the use of statistical analysis to assess software release policies, examining incident data across days and months to determine if empirical evidence supports the need for specific deployment constraints.
 
- 
-<a href="https://milapj.github.io/infer-stats-white-paper/main.pdf" target="_blank">Statistical Insights: Applying Inferential Analysis to Software Incident Data</a>
-
-written in LaTex using [PubTex](https://github.com/jonhue/pubtex-action/tree/main/) github action.
+Link to PDF - <a href="https://milapj.github.io/infer-stats-white-paper/main.pdf" target="_blank">Statistical Insights: Applying Inferential Analysis to Software Incident Data</a>
 
 ## Disclaimer
 
