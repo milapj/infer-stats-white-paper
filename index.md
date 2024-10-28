@@ -1,4 +1,6 @@
-## Overview
+![image](resources/incident_analysis_llm.png)
+
+## A Statistical Lens on Software Incidents
 
 This white paper explores the use of statistical analysis to assess software release policies, examining incident data across days and months to determine if empirical evidence supports the need for specific deployment constraints.
 
