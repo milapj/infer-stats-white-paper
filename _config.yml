@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
 title: 'Statistical Insights: Applying Inferential Analysis to Software Incident Data'
 description: White paper which explores using Statistics to analyze Software Incident Data
+include: ["_includes/head.html"]
+seo:
+  type: "article"
+  image: "https://milapj.github.io/infer-stats-white-paper/resources/incident_analysis_llm.png"
