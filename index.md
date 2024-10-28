@@ -2,7 +2,7 @@
 
 ## A Statistical Lens on Software Incidents
 
-This white paper explores the use of statistical analysis to assess software release policies, examining incident data across days and months to determine if empirical evidence supports the need for specific deployment constraints.
+This paper explores the use of statistical analysis to assess software release policies, examining incident data across days and months to determine if empirical evidence supports the need for specific deployment constraints.
 
 Link to PDF - <a href="https://milapj.github.io/infer-stats-white-paper/main.pdf" target="_blank">Statistical Insights: Applying Inferential Analysis to Software Incident Data</a>
 
